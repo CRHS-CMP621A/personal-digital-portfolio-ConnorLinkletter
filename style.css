@@ -12,12 +12,11 @@ header {
   outline-style: double;
 }
 .sidebar {
+  display: flex;
   outline-style: solid;
   color: #723d46;
   padding: 10px;
-  display: flex;
   flex-direction: column;
-  align-items: stretch;
   gap: 10px;
 }
 .sidehead {
@@ -39,6 +38,7 @@ a.link:hover {
   outline-style: solid;
   color: #723d46;
   margin-top: 10px;
+  align-self: flex-end;
 }
 .main {
   outline-style: solid;
