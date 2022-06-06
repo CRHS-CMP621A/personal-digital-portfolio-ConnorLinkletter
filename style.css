@@ -1,0 +1,97 @@
+body {
+  background-color: #9868b1ff;
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr;
+}
+header {
+  color: rgb(83, 27, 79);
+  padding: 3px;
+  text-align: center;
+  outline-style: double;
+}
+h2 {
+  color: rgb(83, 27, 79);
+  padding: 3px;
+  text-align: center;
+  outline-style: double;
+}
+h4 {
+  color: rgb(83, 27, 79);
+  padding: 3px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+div {
+  background-color: rgb(228, 206, 240);
+}
+.sidebar {
+  display: flex;
+  outline-style: solid;
+  color: rgb(83, 27, 79);
+  padding: 10px;
+  flex-direction: column;
+  gap: 10px;
+}
+.sidehead {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+ul {
+  font-weight: bold;
+}
+li {
+  padding: 5px;
+}
+a.link {
+  outline-style: solid;
+  color: rgb(235, 189, 232);
+  background-color: rgb(150, 62, 197);
+  padding: 3px;
+  text-align: center;
+}
+a.link:hover {
+  color: white;
+}
+.sideimage {
+  outline-style: solid;
+  color: rgb(83, 27, 79);
+  margin-top: 10px;
+  align-self: flex-end;
+}
+.main {
+  outline-style: solid;
+  color: rgb(83, 27, 79);
+  padding: 10px;
+}
+.portfolio {
+  margin-top: 20px;
+  display: grid;
+  align-items: stretch;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 10px;
+}
+.porthead {
+  color: rgb(83, 27, 79);
+}
+.imagebox {
+  color: rgb(83, 27, 79);
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: stretch;
+}
+.portimage {
+  height: 100%;
+  width: auto;
+  margin: auto auto;
+  transition: transform 0.2s;
+  align-self: center;
+}
+.portimage:hover {
+  transform: scale(1.5);
+}
